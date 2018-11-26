@@ -164,7 +164,15 @@ ul.submenu:hover {
 */
 
 @media only screen and (max-width: 480px) {
+<<<<<<< Updated upstream
     .horizontal a {
+=======
+<<<<<<< HEAD
+    nav.horizontal a {
+=======
+    .horizontal a {
+>>>>>>> master
+>>>>>>> Stashed changes
         font-size: 1.5em;
         line-height: 2.2em;
     }
@@ -182,16 +190,37 @@ ul.submenu:hover {
 */
 
 @media only screen and (min-width: 481px) {
+<<<<<<< Updated upstream
     .mainmenu>li {
+=======
+<<<<<<< HEAD
+    ul.mainmenu>li {
+=======
+    .mainmenu>li {
+>>>>>>> master
+>>>>>>> Stashed changes
         float: left;
         width: 20%;
         position: relative;
     }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    ul.submenu {
+        box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+        position: absolute;
+        width: 200%;
+=======
+>>>>>>> Stashed changes
     .submenu {
         box-shadow: rgb(51, 51, 51) 5px 5px 15px;
         position: absolute;
         width: 20%;
+<<<<<<< Updated upstream
+=======
+>>>>>>> master
+>>>>>>> Stashed changes
     }
 }
 
@@ -202,11 +231,46 @@ ul.submenu:hover {
 */
 
 @media only screen and (min-width: 769px) {
+<<<<<<< Updated upstream
     .submenu {
+=======
+<<<<<<< HEAD
+    ul.submenu {
+=======
+    .submenu {
+>>>>>>> master
+>>>>>>> Stashed changes
         background: transparent;
         box-shadow: none;
         display: block;
         position: relative;
         width: 100%;
     }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+
+    nav.horizontal::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    nav.horizontal a.submenutitle {
+        display: none;
+    }
+
+    article {
+        float: left;
+        margin-right: 5%;
+        width: 55%;
+    }
+
+    aside {
+        float: left;
+        width: 40%;
+    }
+=======
+>>>>>>> master
+>>>>>>> Stashed changes
 }
